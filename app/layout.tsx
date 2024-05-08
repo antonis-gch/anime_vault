@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 
-import Hero from "@/components/Hero";
-import Footer from "@/components/Footer";
+import Hero from "@/app/ui/components/Hero";
+import Footer from "@/app/ui/components/Footer";
 
-import "./globals.css";
+import "./ui/globals.css";
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
